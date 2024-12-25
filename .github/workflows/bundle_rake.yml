@@ -1,4 +1,7 @@
 ---
+'on':
+  workflow_call:
+
 jobs:
   rake:
     name: Ruby ${{ matrix.ruby-version }}
